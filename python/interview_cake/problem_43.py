@@ -4,13 +4,17 @@ Each order is represented by an "order id" (an integer).
 We have our lists of orders sorted numerically already, in lists. Write a function to merge our lists of orders into one sorted list.
 """
 
+# solution built-in functions
+
 # def merge_lists(list1, list2):
 # 	merged = list1 + list2
 # 	merged.sort()
 # 	return merged
 
-# runs slightly faster than relying on built-in sorting functions
+# the below runs slightly faster than relying on built-in sorting functions
 # (0.030 seconds vs 0.037 seconds)
+# probably still room to make this more efficient
+
 def merge_lists(list1, list2):
 	merged = []
 	i = 0
