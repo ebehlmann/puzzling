@@ -11,3 +11,4 @@ I'm attempting to complete one code puzzle or challenge per day and will post so
 ## Languages so far:
 
 * Python
+* Javascript
