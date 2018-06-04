@@ -50,6 +50,3 @@ document.querySelector('#part2Button').addEventListener('click', () => {
 	var part2Display = document.querySelector('#part2Result');
 	part2Display.textContent = part2Result;
 });
-
-var part2Display = document.querySelector('#part1Result');
-part2Display.textContent = part2Result;
